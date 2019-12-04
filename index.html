@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href = 'style.css' rel = 'stylesheet'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Final Project</title>
+</head>
+<body>
+
+    <h1>Currency Converter!</h1>
+
+<form name="currency">
+<table border="0">
+    <tr>
+        <td>Euro: </td><td><input type="text" name="euro" onChange="euroConverter()"></td>
+    </tr>
+    <tr>
+        <td>US Dollar: </td><td><input type="text" name="dollar" onChange="dollarConverter()"></td>
+    </tr>
+    <tr>
+        <td>British Pound:</td><td><input type="text" name="pound" onChange="poundConverter()"></td>
+    </tr>
+    <tr>
+        <td>Japanese Yen: </td><td><input type="text" name="yen" onChange="yenConverter()"></td>
+    </tr>
+    <tr>
+        <td>Australian Dollar: </td><td><input type="text" name = "aud" onChange = "audConverter()"></td>
+    </tr>
+    <tr>
+        <td>Canadian Dollar: </td><td><input type="text" name = "cad" onChange = "cadConverter()"></td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center"><input type="button" value="Convert!"></td>
+    </tr>
+    <tr>
+        <td colspan = "2" align="center"><input type = "button" value = "Reset!" onclick="clearForm()"></td>
+    </tr>
+</table>
+</form>
+<p>*note that prices are going to vary throughout time.</p>
+<script src = 'scripts.js'></script>
+</body>
+</html>
